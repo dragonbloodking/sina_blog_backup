@@ -1,0 +1,21 @@
+{
+  "uid": "1234567890",
+  "cookie": "SINAGLOBAL=xxx; SUB=xxx;",
+  "list_url_template": "https://blog.sina.com.cn/s/articlelist_{uid}_0_{page}.html",
+  "max_pages": 50,
+  "request_delay_sec": 1,
+  "timeout_sec": 15,
+  "verify_ssl": true,
+  "output_dir": "output",
+  "download_images": true,
+  "save_raw_html": false,
+  "article_url_regex": "blog\\.sina\\.com\\.cn/s/blog_",
+  "selectors": {
+    "list_link": "",
+    "title": [],
+    "time": [],
+    "category": [],
+    "tags": [],
+    "content": []
+  }
+}
